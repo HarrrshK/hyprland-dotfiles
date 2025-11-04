@@ -1,0 +1,50 @@
+{
+  // TheSnitcher — Ruthless Fastfetch setup
+  "logo": "~/.config/fastfetch/logo.txt",
+  "separator": " : ",
+  "logoKeyWidth": 12,
+  "logoPadding": 2,
+
+  "modules": [
+    { "type": "title" },
+    { "type": "os", "key": "OS" },
+    { "type": "kernel", "key": "Kernel" },
+    { "type": "uptime", "key": "Uptime" },
+    { "type": "packages", "key": "Packages" },
+    { "type": "shell", "key": "Shell" },
+    { "type": "wm", "key": "WM" },
+    { "type": "terminal", "key": "Terminal" },
+    {
+      "type": "cpu",
+      "key": "CPU",
+      "showTemp": true,
+      "showFreq": true,
+      "showCoreCount": true
+    },
+    { "type": "gpu", "key": "GPU" },
+    { "type": "memory", "key": "Memory", "unit": "GiB" },
+    {
+      "type": "disk",
+      "key": "Disk",
+      "folders": ["/"],
+      "unit": "GiB",
+      "showUsed": true,
+      "showTotal": true
+    },
+    {
+      "type": "swap",
+      "key": "Swap"
+    },
+    {
+      "type": "battery",
+      "key": "Battery"
+    },
+    {
+      "type": "player",
+      "key": "Now Playing"
+    },
+    {
+      "type": "colors"
+    }
+  ]
+}
